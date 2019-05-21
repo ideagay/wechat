@@ -1,0 +1,25 @@
+.wc-msg-form{
+    padding: 10px;
+    background: #eee;
+    position: relative;
+    .send{
+        position: absolute;
+        right: 17px;
+        top: 15px;
+        font-size: 16px;
+        background: #ffe411;
+        color: #fff;
+        border-radius: 100%;
+        width: 24px;
+        line-height: 24px;
+        text-align: center;
+        height: 24px;
+    }
+    .options{
+        color: #999;
+        padding: 5px 0 0 0;
+        .iconfont{
+            font-size: 20px;
+        }
+    }
+}

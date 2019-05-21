@@ -1,0 +1,13 @@
+.room {
+    .wc-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+        .wc-msgs {
+            flex: 1;
+            padding: 15px 20px;
+            overflow-y: scroll;
+        }
+    }
+}

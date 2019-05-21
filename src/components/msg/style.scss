@@ -1,0 +1,26 @@
+.wc-msg{
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 15px;
+    display: flex;
+    // flex-wrap: wrap;
+    line-height: 1.4;
+    .name{
+        padding: 6px 0;
+    }
+    .text{
+        background: rgb(217,244,254);
+        border-radius: 40px;
+        padding: 8px 24px;
+        min-width: 80px;
+        // flex: 1;
+        word-break: break-all;
+    }
+    .image{
+        width: 200px;
+        img{
+            width: 100%;
+        }
+        height: auto;
+    }
+}
